@@ -1,0 +1,17 @@
+{
+    "name": "afa/framework.symfony.sandbox",
+    "autoload": {
+        "psr-4": {"": "src\\"}
+    },
+
+	"repositories": [
+		{
+			"type": "vcs",
+			"url":  "https://github.com/andyfarkas/Afa.Framework.Symfony.git"
+		}
+	],
+	
+    "require": {
+        "afa/framework.symfony": "dev-master"        
+    }
+}
