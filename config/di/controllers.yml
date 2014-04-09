@@ -1,4 +1,4 @@
 services:
-  myController:
-    class: MyController
-    shared: true
+  usersController:
+    class: Sandbox\Users\UsersController
+    arguments: ["@usersService"]
